@@ -1,0 +1,11 @@
+﻿<form class="vertical-center" ng-submit="controller.register(user)">
+    <h1>
+        New Account
+    </h1>
+
+    <input ng-model="user.userName" placeholder="User Name" class="form-control" />
+    <input ng-model="user.email" placeholder="Email" type="Email" class="form-control" />
+    <input ng-model="user.password" placeholder="Password" type="password" class="form-control" />
+    <input ng-model="user.confirmPassword" placeholder="Confirm Password" type="password" class="form-control" />
+    <input type="submit" class="form-control btn btn-success" value="Register" />
+</form>
